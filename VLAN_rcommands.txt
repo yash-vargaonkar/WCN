@@ -1,0 +1,11 @@
+VLAN ROUTER CONFIG
+
+-NAVIGATE TO ROUTER - VLAN DB-ADD NAME AND NUMBER OF VLAN
+-CLI
+  -exit
+  -config t
+  -int f 0/0.1
+  -encapsulation dot1q 20
+  -ip address 192.168.20.1
+  -exit
+  -exit
